@@ -1,0 +1,27 @@
+﻿.loginwindow{
+    width: 30%; height: 300px;
+    text-align: center;
+    padding: 55px;
+    margin-left: 30%;
+    margin-top: 5%;
+    border: 3px solid #cc5800;
+    border-radius: 20px;
+    color: red;    
+}
+
+.loginboreder {
+    border-radius: 10px;
+    border: 2px solid #cc5800
+}
+.textabout {
+    
+}
+.textcolorabout {
+    background-color: black;
+    color: #cc5800;
+    font-family: Arial;
+    font-size: small;
+    text-decoration-style: wavy
+    /*    color: #cc5800;*/
+    
+}
