@@ -21,12 +21,9 @@
                     <li><h3><a href="About.html" class="nav-link px-3 text-warning btn-outline-light">Մեր մասին</a></h3></li>
                     <li><h3><a href="Delivery.html" class="nav-link px-3 text-warning btn-outline-light">Առաքում</a></h3></li>
                 </ul>
-
                 <div class="text-end">
-
-                    <a class="btn btn-warning btn-outline-light" href="LoginPage.html">Մուտք</a>
-                    <a class="btn btn-warning btn-outline-light" href="RegistrationPage.html">Գրանցվել</a>
-                    <a   data-toggle="modal" data-target="#myModal"  class="btn btn-warning btn-outline-light"> <img src="../Image/OIP.jpg" style="height:20px; width:30px; border:0"> <sup><small>0</small></sup> </a>
+                    <a id="Mutq" data-toggle="modal" data-target="#myModalLogin" class="btn btn-warning btn-outline-light">Մուտք</a>
+                    <a data-toggle="modal" data-target="#myModal" class="btn btn-warning btn-outline-light"> <img src="../Image/OIP.jpg" style="height:20px; width:30px; border:0"> <sup><small>0</small></sup> </a>
                 </div>
             </div>
         </div>
@@ -34,9 +31,6 @@
     <div class="container-fluid" display: flex; style="height:700px">
         <div class="row">
             <div class="col-sm-2">
-
-
-
                 <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 100%; height:715px;">
                     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                         <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
@@ -84,12 +78,7 @@
 
             </div>
             <div class="col-sm-10 size1">
-
-
-
                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-5 g-6" style="margin-top:15px">
-
-
                     <div class="col">
                         <div class="card  text-white bg-dark" style="border-radius:20px;width:200px;">
                             <img src="../Image/tjvjik.jpg" class="card-img-top" style="border-top-left-radius: 20px;border-top-right-radius: 20px " alt="...">
@@ -98,18 +87,19 @@
                                 <h5 class="card-title">Տժվժիկ</h5>
                                 <p class="card-text"> 1500 դր</p>
                                 <button onclick="Addcard()" type="button" class="btn btn-sm btn-warning">Զամբյուղ</button>
-                                
+
+
                             </div>
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div id="myDIV" class="col">
                         <div class="card  text-white bg-dark" style="border-radius:20px;width:200px;">
-                            <img src="../Image/tjvjik.jpg" class="card-img-top" style="border-top-left-radius: 20px;border-top-right-radius: 20px " alt="...">
+                            <img src="../Image/amarayin.png" class="card-img-top" style="border-top-left-radius: 20px;border-top-right-radius: 20px " alt="...">
 
                             <div class="card-body">
-                                <h5 class="card-title">Տժվժիկ</h5>
-                                <p class="card-text"> 1000 դր</p>
+                                <h5 class="card-title">Տժվժիկ1</h5>
+                                <p class="card-text"> 1200 դր</p>
                                 <button onclick="Addcard()" type="button" class="btn btn-sm btn-warning">Զամբյուղ</button>
                             </div>
                         </div>
@@ -139,7 +129,6 @@
                     <div class="col">
                         <div class="card  text-white bg-dark" style="border-radius:20px;width:200px;">
                             <img src="../Image/tjvjik.jpg" class="card-img-top" style="border-top-left-radius: 20px;border-top-right-radius: 20px " alt="...">
-
                             <div class="card-body">
                                 <h5 class="card-title">Տժվժիկ</h5>
                                 <p class="card-text"> 1000 դր</p>
@@ -147,28 +136,18 @@
                             </div>
                         </div>
                     </div>
-
-
-
                 </div>
-
-
                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-5 g-6" style="margin-top:15px">
-
-
                     <div class="col">
                         <div class="card  text-white bg-dark" style="border-radius:20px;width:200px;">
                             <img src="../Image/tjvjik.jpg" class="card-img-top" style="border-top-left-radius: 20px;border-top-right-radius: 20px " alt="...">
-
                             <div class="card-body">
                                 <h5 class="card-title">Տժվժիկ</h5>
                                 <p class="card-text"> 1000 դր</p>
                                 <button type="button" class="btn btn-sm btn-warning">Զամբյուղ</button>
-
                             </div>
                         </div>
                     </div>
-
                     <div class="col">
                         <div class="card  text-white bg-dark" style="border-radius:20px;width:200px;">
                             <img src="../Image/tjvjik.jpg" class="card-img-top" style="border-top-left-radius: 20px;border-top-right-radius: 20px " alt="...">
@@ -194,7 +173,6 @@
                     <div class="col">
                         <div class="card  text-white bg-dark" style="border-radius:20px;width:200px;">
                             <img src="../Image/tjvjik.jpg" class="card-img-top" style="border-top-left-radius: 20px;border-top-right-radius: 20px " alt="...">
-
                             <div class="card-body">
                                 <h5 class="card-title">Տժվժիկ</h5>
                                 <p class="card-text"> 1000 դր</p>
@@ -217,7 +195,6 @@
                 </div>
             </div>
         </div>
-
     </div>
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
@@ -226,8 +203,57 @@
             </a>
             <span class="text-white">© 2021 Company, Inc</span>
         </div>
-
     </footer>
+
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Զամբյուղ</h4>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Փակել</button>
+                </div>
+                <div class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="myModalLogin" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div>
+                        <p><input type="email" class="form-control loginboreder" placeholder="էլ. փոստ"></p>
+                        <p><input type="password" class="form-control" placeholder="Գաղտնաբառ"></p>
+                        <p><input type="submit" onclick="Login()" class="btn btn-warning btn-outline-light form-control" style="background-color:#cc5800" value="Մուտք գործել"></p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a data-toggle="modal" data-target="#myModalReg" class="btn btn-warning btn-outline-light" style="background-color:#cc5800" data-dismiss="modal">Գրանցվել</a>
+                    <button type="button" class="btn btn-warning btn-outline-light" data-dismiss="modal" style="background-color:#cc5800">Փակել</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="myModalReg" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div>
+                        <p>   <input type="text" class="form-control loginboreder" placeholder="Անուն">   </p>
+                        <p>   <input type="text" class="form-control loginboreder" placeholder="Ազգանուն"></p>
+                        <p>   <input type="email" class="form-control loginboreder" placeholder="էլ. փոստ">   </p>
+                        <p>   <input type="text" class="form-control loginboreder" placeholder="Հեռախոսահամար">   </p>
+                        <p>   <input type="password" class="form-control loginboreder" placeholder="Գաղտնաբառ">   </p>
+                        <p>   <input type="password" class="form-control loginboreder" placeholder="Կրկնեք գաղտնաբառը">   </p>
+                        <p>   <input type="submit" class="btn btn-warning btn-outline-light form-control" style="background-color:#cc5800" value="Գրանցվել"> </p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning btn-outline-light" data-dismiss="modal" style="background-color:#cc5800">Փակել</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <script>
@@ -235,48 +261,34 @@
         function Addcard() {
             document.getElementsByTagName("small")[0].innerHTML = ++i;
             AddModal();
-         
+
         }
 
         function AddModal() {
             var img = document.createElement('img');
-            img.src = "../Image/tjvjik.jpg" ;
+            img.src = "../Image/tjvjik.jpg";
             document.getElementsByClassName("modal-body")[0].appendChild(img);
+            test();
+
         }
-       
+
+        function Login()
+        {
+           /* alert("test")*/
+          /*  data - dismiss="modal"*/
+             document.getElementById("Mutq").innerHTML = "Դուրս գալ";
+        /*    Modalclose();*/
+        }
+
+        //function Modalclose() {
+        //    $(".btn").click(function () {
+        //        $("#myModalLogin").modal('hide');
+        //    }
 
     </script>
 
 
 
 
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-
-                    <h4 class="modal-title">Զամբյուղ</h4>
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Փակել</button>
-                </div>
-                <div class="modal-body" >
-                   
-                    <!--<div class="col">
-        <div class="card  text-white bg-dark" style="border-radius:20px;width:70px;">
-            <img src="../Image/tjvjik.jpg" class="card-img-top" style="border-top-left-radius: 20px;border-top-right-radius: 20px " alt="...">
-
-            <div class="card-body">
-
-
-            </div>
-        </div>
-    </div>-->
-                </div>
-                
-            </div>
-        </div>
-    </div>
-    </div>
 </body>
 </html>
